@@ -12,14 +12,13 @@ It implements socket factories that perform authentication after connection esta
 
 ```java
 public class Main {
-
     private static final AuthRMIClientSocketFactory csf = new AuthRMIClientSocketFactory();
     private static final AuthRMIServerSocketFactory ssf = new AuthRMIServerSocketFactory(new Authorizer() {
 
-        @Override
-        public boolean authorize(AuthData authData) {
-            return authData.login.equals("login") && authData.password.equals("password");
-        }
+      @Override
+      public boolean authorize(AuthData authData) {
+        return authData.login.equals("login") && authData.password.equals("password");
+      }
     });
 
     public static void main(String[] args) throws Throwable {
