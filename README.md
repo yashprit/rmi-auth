@@ -8,7 +8,7 @@ It implements socket factories that perform authentication after connection esta
 
 ## Usage
 
-* On server side:
+### On server side:
 
 ```java
 public class Main {
