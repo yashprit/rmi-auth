@@ -37,7 +37,7 @@ public class Main {
 }
 ```
 
-* On client side:
+### On client side:
 
 ```java
 public class Main {
