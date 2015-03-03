@@ -1,7 +1,5 @@
 # rmi-auth
 
-*exported from code.google.com/p/rmiauth*
-
 Small library that allows RMI connections authentication with login and password.
 
 It implements socket factories that perform authentication after connection establishes.
