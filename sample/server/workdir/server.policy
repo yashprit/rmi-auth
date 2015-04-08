@@ -1,0 +1,10 @@
+/* AUTOMATICALLY GENERATED ON Fri Mar 25 15:05:55 MSK 2011*/
+/* DO NOT EDIT */
+
+grant {
+  permission java.net.SocketPermission "127.0.0.1:*", "connect,resolve";
+  permission java.net.SocketPermission "127.0.0.1:*", "accept";
+
+  permission java.util.logging.LoggingPermission "control";
+};
+
